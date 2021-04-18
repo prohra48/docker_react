@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React. Yes Always.Hello.SSUp
+          Learn React. Yes Always.Hello.
         </a>
       </header>
     </div>
