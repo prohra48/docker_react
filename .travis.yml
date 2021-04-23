@@ -4,10 +4,10 @@ services:
   - docker
 
 before_install:
-  - docker build -t rpawan48/docker_react -f Dockerfile.dev . 
+  - docker build -t prohra48/docker_react -f Dockerfile.dev . 
 
 script:
-  - docker run -e CI=true rpawan48/docker_react npm run test
+  - docker run -e CI=true prohra48/docker_react npm run test
 
 deploy:
   provider: elasticbeanstalk
